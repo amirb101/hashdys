@@ -3,9 +3,15 @@ contributers  = []
 projects = []
 
 class person():
+<<<<<<< HEAD
     def __init__(self):
         self.name=""
         self.skills={}
+=======
+  def __init__(self):
+    self.name =""
+    self.skills = {}  
+>>>>>>> 88e5590ae39408353c29429f6ab27e71903fd89d
 
 class project():
     def __init__(self):
