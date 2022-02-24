@@ -2,8 +2,10 @@ c,p = map(int,input().split())
 contributers  = []
 
 class person():
-  
-
+  def __init__(self):
+    self.name = ""
+    self.skills = {}
+    
 class project():
     def _init_(self):
         self.name = ""
