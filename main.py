@@ -3,9 +3,9 @@ contributers  = []
 projects = []
 
 class person():
-  def __init__(self):
-    self.name =""
-    self.skills = {} 
+    def __init__(self):
+        self.name=""
+        self.skills={}
 
 class project():
     def __init__(self):
@@ -13,8 +13,16 @@ class project():
         self.days = 0
         self.score = 0
         self.best = 0
-        self.roles=0
-        self.jobs= {}
+        self.roles = 0
+        self.jobs = {}
+
+for i1 in range(c):
+    contributers.append(person())
+    pers = list(input().split(" "))
+    qual = list(input().split(" "))
+    contributers[i1].name = 
+    
+
 
 for i in range(p):
     projects.append(project())
@@ -27,4 +35,3 @@ for i in range(p):
     for j in range(current[4]):
         job = list(input().split(" "))
         project[i].jobs[job[0]] = int(job[1])
-
