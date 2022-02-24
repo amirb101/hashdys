@@ -5,7 +5,7 @@ projects = []
 class person():
   def __init__(self):
     self.name =""
-    self.skills = {} 
+    self.skills = {}  
 
 class project():
     def __init__(self):
