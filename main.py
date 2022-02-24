@@ -19,10 +19,10 @@ class project():
 for i1 in range(c):
     contributers.append(person())
     pers = list(input().split(" "))
-    qual = list(input().split(" "))
-    contributers[i1].name = 
-    
-
+    contributers[i1].name = pers[0]
+    for i2 in range(int(pers[1])):
+        qual = list(input().split(" "))
+        contributers[i1].jobs[qual[0]] = int(qual[1])
 
 for i in range(p):
     projects.append(project())
