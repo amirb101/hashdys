@@ -1,5 +1,9 @@
 c,p = map(int,input().split())
 contributers  = []
+
+class person():
+  
+
 class project():
     def _init_(self):
         self.name = ""
@@ -15,13 +19,4 @@ for i in range(p):
 
 
 
-<<<<<<< HEAD
     
-=======
-for i in range(c):
-    print("hi")
-class Person():
-  name = ""
-  skills = {}
-  
->>>>>>> e455676da8fd59604ecbce610bc346d9488198f4
