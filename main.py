@@ -1,8 +1,14 @@
 c,p = map(int,input().split())
 contributers  = []
 projects = []
+
+class person():
+  def __init__(self):
+    self.name =""
+    self.skills = {}
+
 class project():
-    def _init_(self):
+    def __init__(self):
         self.name = ""
         self.days = 0
         self.score = 0
